@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━
-\n [ꜱᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot) ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
+\n [ꜱᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
 ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
  ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
       ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -104,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/mrsScarlett_bot?startgroup=new"
+            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/JenniFer_x_RoBot?startgroup=new"
         ),
     ],
 ]
@@ -372,14 +372,14 @@ def avenger_about_callback(update, context):
     query = update.callback_query
     if query.data == "avenger_":
         query.message.edit_text(
-            text="๏ I'm *Miss Queen*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *JenniFer RoBot*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Miss Queen licensed under the GNU General Public License v3.0_"
+            "\n\n_JenniFer RoBot licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for Miss Queen.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -431,7 +431,7 @@ def avenger_about_callback(update, context):
             text=f"━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
             "\n*ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɴᴏᴡ :*"
             "\n🎉 ᴄᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴꜱ 🎉"
-            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot) ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ"
+            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ"
             "\nᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ."
             "\n\n*ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ :*"
             "\nʙᴀꜱɪᴄ ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ"
@@ -476,7 +476,7 @@ def avenger_about_callback(update, context):
         )
     elif query.data == "avenger_support":
         query.message.edit_text(
-            text="*๏ Miss Queen support chats*"
+            text="*๏ JenniFer RoBot support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Miss Queen.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -503,9 +503,9 @@ def avenger_about_callback(update, context):
             text=f"━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
             "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ* 🛡️"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
-            "\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot)"
+            "\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot)"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
-            "\nᴍᴀᴋɪɴɢ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot) ᴀ"
+            "\nᴍᴀᴋɪɴɢ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ᴀ"
             "\nꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -540,8 +540,8 @@ def Source_about_callback(update, context):
             text="━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
             "\n  👨‍💻 *Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ ꜱᴏᴜʀᴄᴇ* 👨‍💻"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ"
-            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot), ᴡʜɪᴄʜ ʜᴇʟᴘꜱ"
-            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot) ꜰᴏʀ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ"
+            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot), ᴡʜɪᴄʜ ʜᴇʟᴘꜱ"
+            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ꜰᴏʀ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ"
             "\nᴘʀᴏᴘᴇʀʟʏ ᴀɴᴅ ᴇꜰꜰᴇᴄᴛɪᴠᴇʟʏ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -555,7 +555,7 @@ def Source_about_callback(update, context):
                         InlineKeyboardButton(
                             text="💳", callback_data="avenger_credit"
                         ),
-                        InlineKeyboardButton(text="🧑‍💻", url="https://t.me/mkspali"),
+                        InlineKeyboardButton(text="🧑‍💻", url="https://t.me/JenniFer_x_RoBot"),
                         InlineKeyboardButton(text="🖥️", callback_data="help_back"),
                     ],
                     [
