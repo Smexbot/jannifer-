@@ -501,11 +501,11 @@ def avenger_about_callback(update, context):
     elif query.data == "avenger_credit":
         query.message.edit_text(
             text=f"━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━"
-            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ* 🛡️"
+            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ* 🛡️"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
-            "\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot)"
+            "\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot)"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
-            "\nᴍᴀᴋɪɴɢ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ᴀ"
+            "\nᴍᴀᴋɪɴɢ [Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ᴀ"
             "\nꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -537,11 +537,11 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
-            "\n  👨‍💻 *Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ ꜱᴏᴜʀᴄᴇ* 👨‍💻"
+            text="━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━"
+            "\n  👨‍💻 *Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ ꜱᴏᴜʀᴄᴇ* 👨‍💻"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ"
-            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot), ᴡʜɪᴄʜ ʜᴇʟᴘꜱ"
-            "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ꜰᴏʀ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ"
+            "\n[Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot), ᴡʜɪᴄʜ ʜᴇʟᴘꜱ"
+            "\n[Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ꜰᴏʀ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ"
             "\nᴘʀᴏᴘᴇʀʟʏ ᴀɴᴅ ᴇꜰꜰᴇᴄᴛɪᴠᴇʟʏ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -826,7 +826,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                f"""━━━━━━━━━━━━━━━━━━━━━\n  ✅ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/mrsScarlett_bot) *ꜱᴛᴀʀᴛᴇᴅ* ✅\n━━━━━━━━━━━━━━━━━━━━━\n
+                f"""━━━━━━━━━━━━━━━━━━━━━\n  ✅ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) *ꜱᴛᴀʀᴛᴇᴅ* ✅\n━━━━━━━━━━━━━━━━━━━━━\n
          *ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ:* `{memek()}`
          *ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ:* `{peler}`
 ━━━━━━━━━━━━━━━━━━━━━
