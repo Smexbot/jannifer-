@@ -78,8 +78,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━
-\n [ꜱᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
+PM_START_TEXT = """━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━
+\n [Jᴀɴɴɪꜰᴇʀ ʀᴏʙᴏᴛ](http://t.me/JenniFer_x_RoBot) ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
 ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
  ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
       ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -111,7 +111,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━\n  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ\nɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ.\n━━━━━━━━━━━━━━━━━━━━━\n       /start : ɢᴇᴛᴛɪɴɢ ʙᴀᴄᴋ ʜᴏᴍᴇ
+━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━\n  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ\nɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ.\n━━━━━━━━━━━━━━━━━━━━━\n       /start : ɢᴇᴛᴛɪɴɢ ʙᴀᴄᴋ ʜᴏᴍᴇ
 """
 
 EXECUTIVE_IMG = "https://telegra.ph/file/775d00f8d00b56c2120ca.mp4"
@@ -380,7 +380,7 @@ def avenger_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_JenniFer RoBot licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Miss Queen.",
+            "\n\n Click on button bellow to get basic help for JenniFer RoBot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -428,7 +428,7 @@ def avenger_about_callback(update, context):
 
     elif query.data == "avenger_admin":
         query.message.edit_text(
-            text=f"━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
+            text=f"━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━"
             "\n*ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɴᴏᴡ :*"
             "\n🎉 ᴄᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴꜱ 🎉"
             "\n[Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot) ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ"
@@ -477,7 +477,7 @@ def avenger_about_callback(update, context):
     elif query.data == "avenger_support":
         query.message.edit_text(
             text="*๏ JenniFer RoBot support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Miss Queen.",
+            "\nJoin My Support Group/Channel for see or report a problem on JenniFer RoBot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -500,7 +500,7 @@ def avenger_about_callback(update, context):
 
     elif query.data == "avenger_credit":
         query.message.edit_text(
-            text=f"━━━━━━━ *Sᴄᴀʀʟᴇᴛ* ━━━━━━━"
+            text=f"━━━━━━━ *Jᴀɴɴɪꜰᴇʀ* ━━━━━━━"
             "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ* 🛡️"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
             "\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [Sᴄᴀʀʟᴇᴛ ʀᴏʙᴏᴛ](t.me/JenniFer_x_RoBot)"
